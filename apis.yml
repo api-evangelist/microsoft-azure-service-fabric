@@ -32,6 +32,8 @@ apis:
       - Applications
       - Services
     properties:
+      - url: openapi/microsoft-azure-service-fabric-openapi.yml
+        type: OpenAPI
       - type: Documentation
         url: https://learn.microsoft.com/en-us/rest/api/servicefabric/
       - type: Authentication
