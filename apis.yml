@@ -1,9 +1,10 @@
 aid: microsoft-azure-service-fabric
 url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-fabric/refs/heads/main/apis.yml
 name: Azure Service Fabric
-description: Azure Service Fabric REST API provides management of microservices clusters, applications, and services. It supports
-  creating and scaling clusters, deploying applications, managing partitions and replicas, and monitoring cluster health for
-  distributed systems.
+description: >-
+  Azure Service Fabric REST API provides management of microservices clusters, applications, and services. It supports
+  creating and scaling clusters, deploying applications, managing partitions and replicas, and monitoring cluster health
+  for distributed systems.
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Microservices
@@ -16,28 +17,25 @@ specificationVersion: '0.20'
 apis:
   - aid: microsoft-azure-service-fabric:rest-api
     name: Azure Service Fabric REST API
-    description: Azure Service Fabric REST API provides management of microservices clusters, applications, and services. It
-      supports creating and scaling clusters, deploying applications, managing partitions and replicas, and monitoring cluster
-      health for distributed systems.
+    description: >-
+      Azure Service Fabric REST API provides management of microservices clusters, applications, and services. It
+      supports creating and scaling clusters, deploying applications, managing partitions and replicas, and monitoring
+      cluster health for distributed systems.
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://learn.microsoft.com/en-us/rest/api/servicefabric/
     baseURL: https://management.azure.com/
     tags:
-    - Microservices
-    - Clusters
-    - Applications
-    - Services
+      - Microservices
+      - Clusters
+      - Applications
+      - Services
     properties:
-    - url: openapi/microsoft-azure-service-fabric-openapi.yml
-      type: OpenAPI
-    - type: Documentation
-      url: https://learn.microsoft.com/en-us/rest/api/servicefabric/
-    - type: Authentication
-      url: https://learn.microsoft.com/en-us/azure/active-directory/develop/authentication-flows-app-scenarios
-    - type: NaftikoCapability
-      url: capabilities/microsoft-azure-service-fabric-clusters.yaml
-    - type: NaftikoCapability
-      url: capabilities/microsoft-azure-service-fabric-operations.yaml
+      - url: openapi/microsoft-azure-service-fabric-openapi.yml
+        type: OpenAPI
+      - type: Documentation
+        url: https://learn.microsoft.com/en-us/rest/api/servicefabric/
+      - type: Authentication
+        url: https://learn.microsoft.com/en-us/azure/active-directory/develop/authentication-flows-app-scenarios
 common:
   - type: GitHubOrganization
     url: https://github.com/microsoft
