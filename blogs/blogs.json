@@ -2,17 +2,11 @@
   "repo": "microsoft-azure-service-fabric",
   "feeds": [
     {
-      "source": "https://azure.microsoft.com/en-us/blog/product/service-fabric/feed/",
-      "error": "HTTPError"
-    },
-    {
-      "source": "https://support.microsoft.com/",
-      "feed_url": "https://support.microsoft.com/",
-      "title": "",
+      "source": "https://azure.microsoft.com/en-us/blog/product/service-fabric/",
       "saved": 0,
-      "method": "none"
+      "error": "timeout on all WebFetch attempts"
     }
   ],
   "post_count": 10,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:54:18Z"
 }
