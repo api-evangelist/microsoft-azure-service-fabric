@@ -37,6 +37,10 @@ apis:
       - type: Authentication
         url: https://learn.microsoft.com/en-us/azure/active-directory/develop/authentication-flows-app-scenarios
 common:
+  - type: DomainSecurity
+    url: security/microsoft-azure-service-fabric-domain-security.yml
+  - type: Authentication
+    url: authentication/microsoft-azure-service-fabric-authentication.yml
   - type: OAuthScopes
     url: scopes/microsoft-azure-service-fabric-scopes.yml
   - type: GitHubOrganization
