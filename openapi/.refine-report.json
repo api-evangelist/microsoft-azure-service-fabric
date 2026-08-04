@@ -1,0 +1,16 @@
+{
+  "provider": "microsoft-azure-service-fabric",
+  "sources": [
+    "microsoft-azure-service-fabric-clusters-api-openapi.yml",
+    "microsoft-azure-service-fabric-operations-api-openapi.yml"
+  ],
+  "outputs": [
+    "microsoft-azure-service-fabric-clusters-api-openapi.yml",
+    "microsoft-azure-service-fabric-operations-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
