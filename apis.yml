@@ -26,7 +26,7 @@ tags:
   - Orchestration
 created: '2026-03-13'
 modified: '2026-05-19'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 apis:
 - aid: microsoft-azure-service-fabric:microsoft-azure-service-fabric-clusters-api
   name: Azure Service Fabric Clusters API
