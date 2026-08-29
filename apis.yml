@@ -5,6 +5,18 @@ description: >-
   Azure Service Fabric REST API provides management of microservices clusters, applications, and services. It supports
   creating and scaling clusters, deploying applications, managing partitions and replicas, and monitoring cluster health
   for distributed systems.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: true
+  label: Hosted service · you call their endpoint
+  confidence: high
+  source:
+  - openapi
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: self-serve
