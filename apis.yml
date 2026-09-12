@@ -1,6 +1,7 @@
 aid: microsoft-azure-service-fabric
-url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-fabric/refs/heads/main/apis.yml
+url: https://learn.microsoft.com/en-us/azure/service-fabric/
 name: Azure Service Fabric
+x-parent: microsoft-azure
 description: >-
   Azure Service Fabric REST API provides management of microservices clusters, applications, and services. It supports
   creating and scaling clusters, deploying applications, managing partitions and replicas, and monitoring cluster health
