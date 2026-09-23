@@ -1,4 +1,4 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
   title: Azure Service Fabric REST Clusters API
   description: Azure Service Fabric is a distributed systems platform for packaging, deploying, and managing scalable microservices. The management REST API manages clusters, applications, and services.
@@ -180,18 +180,6 @@ components:
         nextLink:
           type: string
           description: URL to the next page of results.
-    ErrorResponse:
-      type: object
-      properties:
-        error:
-          type: object
-          properties:
-            code:
-              type: string
-            message:
-              type: string
-            target:
-              type: string
     Resource:
       type: object
       properties:
@@ -214,6 +202,18 @@ components:
         properties:
           type: object
           description: Resource-specific properties.
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: object
+          properties:
+            code:
+              type: string
+            message:
+              type: string
+            target:
+              type: string
   parameters:
     subscriptionId:
       name: subscriptionId
@@ -222,18 +222,18 @@ components:
       description: The ID of the target subscription.
       schema:
         type: string
-    resourceGroupName:
-      name: resourceGroupName
-      in: path
-      required: true
-      description: The name of the resource group.
-      schema:
-        type: string
     apiVersion:
       name: api-version
       in: query
       required: true
       description: The API version to use for this operation.
+      schema:
+        type: string
+    resourceGroupName:
+      name: resourceGroupName
+      in: path
+      required: true
+      description: The name of the resource group.
       schema:
         type: string
   securitySchemes:
