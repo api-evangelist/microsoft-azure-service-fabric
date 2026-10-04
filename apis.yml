@@ -35,7 +35,7 @@ tags:
 - Microservices
 - Distributed Systems
 - Containers
-- Orchestration
+- Container Orchestration
 created: '2026-03-13'
 modified: '2026-09-16'
 specificationVersion: '0.23'
@@ -72,6 +72,9 @@ apis:
   - type: Authentication
     url: https://learn.microsoft.com/en-us/azure/active-directory/develop/authentication-flows-app-scenarios
 common:
+- type: CapabilityMap
+  url: capabilities/microsoft-azure-service-fabric-capability-edges.yml
+  name: Azure Service Fabric Business Capability Map
 - type: Website
   url: https://microsoft.com
 - type: AgenticAccess
@@ -109,3 +112,5 @@ common:
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
+x-tags-removed:
+- Orchestration
