@@ -1,0 +1,26 @@
+slug: microsoft-azure-service-fabric
+provider: Azure Service Fabric
+generated_by: planning/capability-mapping/scripts/classify_capabilities.py
+model: claude-opus-5
+frame:
+- Software & Technology
+min_confidence: 0.7
+capability_model:
+  source: https://github.com/vincentmakes/turbo-ea-capabilities
+  license: CC-BY-4.0
+  attribution: Turbo EA Capabilities by Vincent Verdet — Turbo EA, https://github.com/vincentmakes/turbo-ea-capabilities,
+    CC BY 4.0
+  notice: NOTICE
+edge_count: 1
+edges:
+- tag: Clusters
+  spec_file: microsoft-azure-service-fabric-clusters-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.78
+  evidence: PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceFabric/clusters/{name}
+    'Create or update resource'; 'distributed systems platform for packaging, deploying, and managing
+    scalable microservices'
+  reason: Provisioning and managing compute clusters via Azure Resource Manager is cloud infrastructure
+    management (BC-600.50 compute/cloud infrastructure).
